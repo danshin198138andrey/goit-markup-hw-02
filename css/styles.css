@@ -1,0 +1,17 @@
+/*
+основной цвет заголовков: #212121
+цвет абзаццев: #757575
+цвет акцента: #2196F3
+цвет белых строчных объектов: #FFFFFF
+*/
+
+:root {
+  --main-text-color: #212121;
+  --paragraph-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+}
+
+.logo {
+  font-family: Roboto;
+}
