@@ -12,6 +12,49 @@
   --white-color: #ffffff;
 }
 
-.logo {
+body {
+  color: var(--main-text-color);
   font-family: Roboto;
+}
+
+body a {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Logo */
+
+.logo {
+  font-family: Raleway;
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.logo > span {
+  color: var(--accent-color);
+}
+
+.logo > span:hover,
+.logo > span:focus {
+  color: #212121;
+}
+
+/* Site-nav */
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
 }
