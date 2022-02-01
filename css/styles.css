@@ -17,10 +17,14 @@ body {
   font-family: Roboto;
 }
 
-body a {
-  color: var(--main-text-color);
+a {
   text-decoration: none;
 }
+
+/* body a {
+  color: var(--main-text-color);
+  text-decoration: none;
+} */
 
 ul {
   list-style: none;
@@ -49,7 +53,22 @@ ul {
 
 /* Site-nav */
 
+.site-nav a {
+  color: var(--main-text-color);
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+/*Site-contacts*/
+
+.site-contacts a {
+  color: var(--paragraph-color);
+}
+
+.site-contacts .link:hover,
+.site-contacts .link:focus {
+  color: var(--accent-color);
 }
