@@ -47,11 +47,6 @@ ul {
   color: var(--accent-color);
 }
 
-.logo > span:hover,
-.logo > span:focus {
-  color: #212121;
-}
-
 /* Site-nav */
 
 .site-nav .link:hover,
