@@ -29,9 +29,8 @@ a {
 ul {
   list-style: none;
 }
-
+/* Fore something*/
 /* Logo */
-
 .logo {
   font-family: Raleway, sans-serif;
   color: var(--main-text-color);
