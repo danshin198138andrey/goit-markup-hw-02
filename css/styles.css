@@ -75,3 +75,31 @@ ul {
 .site-contacts .link:focus {
   color: var(--accent-color);
 }
+
+/* Footer */
+
+.footer {
+  color: var(--white-color);
+  background-color: #2f303a;
+}
+
+address p {
+  font-style: normal;
+  font-family: Roboto, sans-serif;
+}
+
+address li {
+  font-style: normal;
+  font-family: Roboto, sans-serif;
+}
+
+/* .site-contacts {
+  font-style: normal;
+  font-family: Roboto, sans-serif;
+} */
+
+/* body > footer {
+  background-color: #2f303a;
+  color: var(--white-color);
+  font-family: Roboto, sans-serif;
+} */
