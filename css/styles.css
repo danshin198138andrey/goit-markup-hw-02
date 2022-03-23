@@ -29,7 +29,7 @@ a {
 ul {
   list-style: none;
 }
-/* Fore something*/
+
 /* Logo */
 .logo {
   font-family: Raleway, sans-serif;
@@ -58,6 +58,10 @@ ul {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
