@@ -17,6 +17,22 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+p {
+  color: var(--paragraph-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
 a {
   text-decoration: none;
 }
@@ -54,6 +70,10 @@ ul {
 
 .site-nav a {
   color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -76,6 +96,63 @@ ul {
   color: var(--accent-color);
 }
 
+/* Hero */
+
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  /* display: flex; */
+  background: var(--accent-color);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* peculiarities */
+
+.peculiarities h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* team */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 /* Footer */
 
 .footer {
@@ -86,6 +163,7 @@ ul {
 address p {
   font-style: normal;
   font-family: Roboto, sans-serif;
+  color: var(--white-color);
 }
 
 address li {
@@ -93,13 +171,7 @@ address li {
   font-family: Roboto, sans-serif;
 }
 
-/* .site-contacts {
-  font-style: normal;
-  font-family: Roboto, sans-serif;
-} */
-
-/* body > footer {
-  background-color: #2f303a;
+/* .footer li:hover,
+.footer li:focus {
   color: var(--white-color);
-  font-family: Roboto, sans-serif;
 } */
