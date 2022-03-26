@@ -171,7 +171,21 @@ address li {
   font-family: Roboto, sans-serif;
 }
 
-/* .footer li:hover,
-.footer li:focus {
+/* PORTFOLIO
+PORTFOLIO */
+.button {
+  color: var(--main-text-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.portfolio.link:hover,
+.portfolio.link:focus {
   color: var(--white-color);
-} */
+  background-color: var(--accent-color);
+}
+
+.portfolio.current {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
