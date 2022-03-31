@@ -89,6 +89,10 @@ ul {
 
 .site-contacts a {
   color: var(--paragraph-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-contacts .link:hover,
@@ -100,7 +104,11 @@ ul {
 
 .hero {
   background-color: #2f303a;
-  color: #ffffff;
+  text-align: center;
+}
+
+.hero .title {
+  color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -119,6 +127,13 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
 }
 
 /* peculiarities */
@@ -164,19 +179,39 @@ address p {
   font-style: normal;
   font-family: Roboto, sans-serif;
   color: var(--white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
-address li {
+.footer .link {
   font-style: normal;
   font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /* PORTFOLIO
 PORTFOLIO */
 .button {
   color: var(--main-text-color);
+  /* background: #f5f4fa; */
+  border-radius: 4px;
+}
+
+.portfolio.filter {
   background: #f5f4fa;
   border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .portfolio.link:hover,
@@ -188,4 +223,22 @@ PORTFOLIO */
 .portfolio.current {
   color: var(--white-color);
   background-color: var(--accent-color);
+}
+
+.portfolio h2 {
+  /* font-family: "Roboto";
+  font-style: normal; */
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+
+.portfolio p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-color);
 }
