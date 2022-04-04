@@ -5,6 +5,15 @@
 цвет белых строчных объектов: #FFFFFF
 */
 
+/* html {
+  box-sizing: border-box;
+}
+
+*,
+*::before, *::after {
+  box-sizing: inherit;
+} */
+
 :root {
   --main-text-color: #212121;
   --paragraph-color: #757575;
@@ -69,6 +78,12 @@ ul {
 /* Site-nav */
 
 .site-nav a {
+
+  outline: 2px solid tomato;
+
+  padding: 32px;
+  display: block;
+
   color: var(--main-text-color);
   font-weight: 500;
   font-size: 14px;
