@@ -223,6 +223,10 @@ ul {
 
 /* peculiarities */
 
+.peculiarities-list {
+  display: flex;
+}
+
 .peculiarities {
   margin-bottom: 94px;
 }
