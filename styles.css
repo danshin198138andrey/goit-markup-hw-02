@@ -20,7 +20,9 @@
   --accent-color: #2196f3;
   --white-color: #ffffff;
 }
-
+body {
+  margin: 0;
+}
 body {
   margin: 0;
 
